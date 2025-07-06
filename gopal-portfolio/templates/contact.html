@@ -1,0 +1,58 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="contact-wrapper">
+    <h2>Contact Gopal</h2>
+    <p>If you'd like to connect, here’s how you can reach me:</p>
+    
+    <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:prustykanha678@gmail.com">prustykanha678@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pratikshya-gopal-prusty-14b85a274" target="_blank">linkedin.com/in/pratikshya-gopal-prusty-14b85a274</a></p>
+        <p><strong>Phone:</strong> +91 81449 85877</p>
+    </div>
+</div>
+
+<style>
+    .contact-wrapper {
+        background: linear-gradient(to right, #eef9ff, #ffffff);
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .contact-wrapper h2 {
+        color: #004d7a;
+        margin-bottom: 10px;
+    }
+
+    .contact-info p {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+
+    .contact-info a {
+        color: #0077b5;
+        text-decoration: none;
+    }
+
+    .contact-info a:hover {
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 600px) {
+        .contact-wrapper {
+            padding: 20px;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+        }
+    }
+</style>
+
+{% endblock %}

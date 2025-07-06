@@ -1,0 +1,68 @@
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="project-container">
+    <h2>Gopal’s Projects</h2>
+    <p>Here’s a collection of projects I’ve worked on—simple yet essential exercises that build my foundation in programming and development:</p>
+
+    <ul class="project-list">
+        <li><strong>Basic Arithmetic Tool:</strong> Handles Addition and Subtraction</li>
+        <li><strong>Even-Odd Checker:</strong> Determines whether a number is even or odd</li>
+        <li><strong>Pass/Fail Evaluator:</strong> Assesses academic performance</li>
+        <li><strong>Calculator App:</strong> Basic mathematical operations in a friendly UI</li>
+        <li><strong>Web Design:</strong> Created functional Home and About pages using Flask</li>
+        <li><strong>More Experiments:</strong> Always learning, always building!</li>
+    </ul>
+
+    <p class="github-link">Explore my code on <a href="https://github.com/PratikshyaGopal" target="_blank">GitHub</a></p>
+</div>
+
+<style>
+    .project-container {
+        background: linear-gradient(to right, #f0f8ff, #ffffff);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .project-container h2 {
+        color: #004d7a;
+        margin-bottom: 15px;
+    }
+
+    .project-container p {
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+
+    .project-list {
+        list-style-type: square;
+        padding-left: 20px;
+        line-height: 1.8;
+    }
+
+    .project-list li {
+        margin-bottom: 10px;
+    }
+
+    .github-link {
+        margin-top: 30px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .github-link a {
+        color: #007acc;
+        text-decoration: none;
+    }
+
+    .github-link a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+{% endblock %}
